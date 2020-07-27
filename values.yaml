@@ -1,0 +1,9 @@
+image:
+  app: redis
+  repository: redis
+  tag: 6.0
+service:
+  spec:
+    ports:
+      containerPort: 9090
+      protocol: TCP
